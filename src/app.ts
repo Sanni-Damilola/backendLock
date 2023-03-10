@@ -5,5 +5,5 @@ import morgan from "morgan"
 
 
 export const appConfig = (app: Application) => {
-    app.use(express.json()).use(cors()).morgan("dev")
-}
+    app.use(express.json()).use(cors()).use(morgan("dev")
+)}
